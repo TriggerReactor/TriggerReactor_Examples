@@ -1,0 +1,7 @@
+IF common.takeItem(player, 265, 1)
+    #SOUND player.getLocation() LEVEL_UP 1.0 1.0
+    #CMDCON "econ add " player.getName() " 10"
+        #MESSAGE "&a판매 성공!"
+ELSE
+    #MESSAGE "&c철괴가 부족합니다."
+ENDIF

@@ -1,0 +1,16 @@
+Size: 180
+Items:
+  '90':
+    Type: GRAVEL
+    Amount: 1
+    Data: 0
+    Title: 'test t t '
+    Lore:
+    - 'bam '
+  '91':
+    Type: GRAVEL
+    Amount: 1
+    Data: 0
+    Title: '&aTest '
+    Lore:
+    - 'bam '

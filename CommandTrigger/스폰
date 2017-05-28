@@ -1,0 +1,24 @@
+loc = player.getLocation()
+x = loc.getBlockX()
+y = loc.getBlockY()
+z = loc.getBlockZ()
+
+#MESSAGE "움직이면 캔슬 됩니다."
+count = 5
+    
+WHILE count > 0
+    #WAIT 1
+    #MESSAGE count
+    count = count - 1
+
+    loc2 = player.getLocation()
+    x2 = loc2.getBlockX()
+    y2 = loc2.getBlockY()
+    z2 = loc2.getBlockZ()
+
+    IF x != x2 || y != y2 || z != z2
+        #MESSAGE "캔슬됨"
+        #STOP
+    ENDIF
+ENDWHILE
+#CMDOP spawn
