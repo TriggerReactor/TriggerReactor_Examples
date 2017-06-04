@@ -22,7 +22,7 @@ function CMDCON(args){
 		var merged = "";
 		for(var i = 1; i < split.length; i++)
 			merged += split[i] + " ";
-        
+		
 		Bukkit.dispatchCommand(Bukkit.getConsoleSender(), args[0]+" "+merged);
 	} else {
         Bukkit.dispatchCommand(Bukkit.getConsoleSender(), args[0]);

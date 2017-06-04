@@ -19,11 +19,8 @@ function CMD(args){
 		var preCommandSize = args[0].split(" ").length;
 		var split = message.split(" ");
 		
-		var fromIndex = preCommandSize;
-		var toIndex = split.length - 1;
-		
 		var merged = "";
-		for(var i = fromIndex; i <= toIndex; i++)
+		for(var i = 1; i < split.length; i++)
 			merged += split[i] + " ";
 		
 		Bukkit.dispatchCommand(player, args[0]+" "+merged);

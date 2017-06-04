@@ -1,0 +1,5 @@
+FOR p = getPlayers()
+
+p.sendMessage(mergeArguments(args))
+
+ENDFOR
