@@ -1,0 +1,7 @@
+areaName = currentArea(player)
+
+IF areaName == "tutorialArea"
+#MESSAGE "여기서는 사용할 수 없습니다."
+ELSE
+#GUI "menu"
+ENDIF
