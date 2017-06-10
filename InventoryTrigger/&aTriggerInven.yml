@@ -14,4 +14,4 @@ Items:
     Title: '&aTest '
     Lore:
     - 'bam '
-Sync: false
+Sync: true

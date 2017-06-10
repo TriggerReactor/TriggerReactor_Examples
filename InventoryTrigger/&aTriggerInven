@@ -1,0 +1,35 @@
+IF slot == 3
+
+#MESSAGE "before If "+isRolling
+
+IF isRolling
+#STOP
+ENDIF
+
+isRolling = true
+
+#MESSAGE "after If "+isRolling
+
+FOR index = 0:10
+
+#WAIT 0.1
+item.setTypeId(random(20, 25))
+setItemTitle(item, "&d"+index)
+clearLore(item)
+addLore(item, ""+random(10, 20))
+addLore(item, ""+random(10, 20))
+addLore(item, ""+random(10, 20))
+addLore(item, ""+random(10, 20))
+setLore(item, 0, "Replaced")
+removeLore(item, 3)
+inventory.setItem(slot, item)
+
+ENDFOR
+
+isRolling = false
+
+ELSE
+
+#MESSAGE "Else Slot "+slot
+
+ENDIF
