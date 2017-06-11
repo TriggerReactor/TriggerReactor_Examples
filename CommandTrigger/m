@@ -1,7 +1,7 @@
 areaName = currentArea(player)
 
 IF areaName == "tutorialArea"
-#MESSAGE "¿©±â¼­´Â »ç¿ëÇÒ ¼ö ¾ø½À´Ï´Ù."
+#MESSAGE "ï¿½ï¿½ï¿½â¼­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."
 ELSE
 #GUI "menu"
 ENDIF

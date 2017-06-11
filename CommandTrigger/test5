@@ -1,0 +1,6 @@
+IF player.hasPermission("testPerm")
+    #MESSAGE "You have permission"
+ELSE
+    #MESSAGE "You don't have permission"
+ENDIF
+

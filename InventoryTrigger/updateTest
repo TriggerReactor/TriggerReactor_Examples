@@ -1,0 +1,31 @@
+IF trigger == "open"
+    WHILE(true)
+        userCount = getPlayers().size()
+        countItem = item(1, 1)
+        setItemTitle(countItem, "&6Online users")
+        clearLore(countItem)
+        addLore(countItem, "Currently: "+userCount)
+        inventory.setItem(0, countItem)
+        #WAIT 1
+    ENDWHILE
+ENDIF
+
+IF trigger == "click"
+    IF slot == 0
+        #MESSAGE "&aCurrent Online Players:"
+        FOR p = getPlayers()
+            #MESSAGE "&d"+p.getName()
+        ENDFOR
+    ENDIF
+ENDIF
+
+IF trigger == "close"
+    #MESSAGE "Closing Inventory"
+ENDIF
+
+
+
+
+
+
+
