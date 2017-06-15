@@ -1,0 +1,6 @@
+#MESSAGE "Level: "+level
+#MESSAGE "Requested: "+permission
+IF level >= 0
+    #MESSAGE "Changing to 5"
+    event.setLevel(5)
+ENDIF
