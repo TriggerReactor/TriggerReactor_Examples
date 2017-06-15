@@ -1,1 +1,29 @@
 test: '"HIHI"'
+clarent:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  damage: 1
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §6클라렌트
+    lore:
+    - §c§9§f§4§e§5§e§d§c§e§e§1§e§d§e§5§a§0§b§1
+    - Clarent
+    - §c§4§e§5§f§3§e§3§f§2§e§9§f§0§f§4§e§9§e§f§e§e§a§0§b§2
+    - §f차가우면서도 뜨거운 기묘한 검.
+    - §f평범한 적은 압도합니다.
+    - §d§4§e§5§f§8§f§4§f§5§f§2§e§5§c§9§c§4§a§0§b§1
+    - §c§1§f§4§f§4§e§1§e§3§e§b§c§5§e§e§f§4§e§9§f§4§f§9§a§0§b§4
+    - '§dDamage§7 : §6+10'
+    - '§dBurn§7 : §6100'
+    - '§dPotionEffect§7 : §6SLOW,100,2'
+    - '§dEquipLimit§7 : §6MH'
+    - §c§3§f§2§e§1§e§6§f§4§a§0§b§1
+    - '§dCraftLevel§7 : §63'
+    - ''
+    - §3[EMCRPGItem]
+    ItemFlags: !!set
+      HIDE_UNBREAKABLE: null
+      HIDE_ATTRIBUTES: null
+    Unbreakable: true
