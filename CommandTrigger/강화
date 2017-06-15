@@ -1,0 +1,14 @@
+//author: wez____@naver.com
+IF getItemTitle(player.getItemInHand()) == "&9아이템이름"
+    IF vault.take(player, 26000.0) 
+        IF random(2) == 0 
+            #BROADCAST "&6"+player.getName()+"님이 강화에 성공하였습니다." 
+        ELSE 
+            #BROADCAST "&c"+player.getName()+"님이 강화에 성공하였습니다." 
+        ENDIF 
+    ELSE 
+        #MESSAGE "&6소지금이 부족함." 
+    ENDIF 
+ELSE 
+    #MESSAGE "&6ㄴㄴ" 
+ENDIF 
