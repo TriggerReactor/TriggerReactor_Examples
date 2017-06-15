@@ -1,14 +1,25 @@
 //author: wez____@naver.com
-IF getItemTitle(player.getItemInHand()) == "&9아이템이름"
+IF getItemTitle(player.getItemInHand()) == color( "&9원하는 아이템이름" ) 
     IF vault.take(player, 26000.0) 
-        IF random(2) == 0 
-            #BROADCAST "&6"+player.getName()+"님이 강화에 성공하였습니다." 
+        IF random(3) == 0 
+            #SOUND player.getLocation() "ENTITY_PLAYER_LEVELUP" 1.0 1.0 
+            #BROADCAST "&6"+player.getName()+" 님이 아이템이름 에 미끼4 강화를 성공하였습니다." 
+            #CMDOP "enchant 32 6" 
+            #CMDOP "enchant 33 1" 
+            #CMDOP "addlore &a" 
+            #CMDOP "addlore &a제작자 : "+player.getName() 
+            #CMDCON "mail send CORSA1R "+player.getName()+"님이 &9아이템이름 &7에 미끼4 강화에 성공하였습니다." 
+            #STOP 
         ELSE 
-            #BROADCAST "&c"+player.getName()+"님이 강화에 성공하였습니다." 
+            #SOUND player.getLocation() "ENTITY_ITEM_BREAK" 1.0 1.0 
+            #BROADCAST "&c"+player.getName()+" 님이 아이템이름 강화를 실패하였습니다." 
+            #STOP 
         ENDIF 
     ELSE 
-        #MESSAGE "&6소지금이 부족함." 
+        #MESSAGE "&6소지금이 부족합니다." 
+        #STOP 
     ENDIF 
 ELSE 
-    #MESSAGE "&6ㄴㄴ" 
+    #MESSAGE "&7강화가 가능한 아이템이 아닙니다." 
+    #STOP 
 ENDIF 
