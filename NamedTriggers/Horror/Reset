@@ -1,0 +1,3 @@
+key = "horror."+player.getUniqueId()
+
+{key} = null

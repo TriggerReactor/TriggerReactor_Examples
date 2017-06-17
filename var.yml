@@ -27,3 +27,13 @@ clarent:
       HIDE_UNBREAKABLE: null
       HIDE_ATTRIBUTES: null
     Unbreakable: true
+horror:
+  c66e482c-648c-3dce-bdb5-61a955e748c8:
+    world,-80,63,313:
+      sounded: true
+    world,-79,63,313:
+      sounded: true
+    world,-79,63,314:
+      sounded: true
+    world,-80,63,314:
+      sounded: true
