@@ -1,0 +1,3 @@
+IF player.isOp() == false
+event.getTabCompletions().clear()
+ENDIF

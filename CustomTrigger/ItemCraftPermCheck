@@ -1,0 +1,13 @@
+IF matches(requestedPermission, "^(enhancedminecraft\.craft\.)([0-9]+)$")
+    #CANCELEVENT
+    
+    lastIndex = requestedPermission.lastIndexOf(".")
+    craftLevel = parseInt(requestedPermission.substring(lastIndex + 1))
+    
+    #MESSAGE "Required craft level = "+craftLevel
+    
+    event.setAllowed(true)
+ENDIF
+
+
+
