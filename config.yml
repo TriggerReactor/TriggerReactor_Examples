@@ -1,2 +1,2 @@
 PermissionManager:
-  Intercept: false
+  Intercept: true

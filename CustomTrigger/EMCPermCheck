@@ -1,0 +1,39 @@
+IF matches(requestedPermission, "^(enhancedminecraft\.craft\.)([0-9]+)$")
+    #CANCELEVENT
+    
+    lastIndex = requestedPermission.lastIndexOf(".")
+    craftLevel = parseInt(requestedPermission.substring(lastIndex + 1))
+    
+    #MESSAGE "Required craft level = "+craftLevel
+    
+    level = 0
+    level = level + mcmmo.level(player, "REPAIR") / 50
+    
+    #MESSAGE "Current level "+level
+    
+    IF level >= craftLevel
+        event.setAllowed(true)
+    ENDIF
+ENDIF
+
+IF matches(requestedPermission, "^(enhancedminecraft\.cook\.)([0-9]+)$")
+    #CANCELEVENT
+    
+    lastIndex = requestedPermission.lastIndexOf(".")
+    cookLevel = parseInt(requestedPermission.substring(lastIndex + 1))
+    
+    #MESSAGE "Required cook level = "+cookLevel
+    
+    level = 0
+    level = level + mcmmo.level(player, "ALCHEMY") / 50
+    level = level + mcmmo.level(player, "HERBALISM") / 50
+    
+    #MESSAGE "Current level "+level
+    
+    IF level >= cookLevel
+        event.setAllowed(true)
+    ENDIF
+ENDIF
+
+
+

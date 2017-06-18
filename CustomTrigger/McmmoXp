@@ -1,0 +1,3 @@
+#MESSAGE "xp gained "+xpGained
+#MESSAGE "type "+skill
+#MESSAGE "level "+skillLevel
