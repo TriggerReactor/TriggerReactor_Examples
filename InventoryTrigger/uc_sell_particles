@@ -1,0 +1,45 @@
+IF trigger == "open"
+    defaultPrice = 200000 - 0.02
+    
+    FOR i = 10:12
+        item = inventory.getItem(i)
+        addLore(item, "&6"+formatCurrency(defaultPrice))
+        inventory.setItem(i, item)
+    ENDFOR
+    
+    FOR i = 12:14
+        item = inventory.getItem(i)
+        addLore(item, "&6"+formatCurrency(defaultPrice * 4))
+        inventory.setItem(i, item)
+    ENDFOR
+    
+    FOR i = 14:17
+        item = inventory.getItem(i)
+        addLore(item, "&6"+formatCurrency(defaultPrice * 2))
+        inventory.setItem(i, item)
+    ENDFOR
+ENDIF
+
+IF trigger == "click"
+    IF slot == 10 // raincloud
+        permission="ultracosmetics.particleeffects.raincloud";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 11 // snowcloud
+        permission="ultracosmetics.particleeffects.snowcloud";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 12 // bloodhelix
+        permission="ultracosmetics.particleeffects.bloodhelix";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 13 // frostlord
+        permission="ultracosmetics.particleeffects.frostlord";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 14 // flamerings
+        permission="ultracosmetics.particleeffects.flamerings";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 15 // inlove
+        permission="ultracosmetics.particleeffects.inlove";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 16 // greensparks
+        permission="ultracosmetics.particleeffects.greensparks";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+ENDIF

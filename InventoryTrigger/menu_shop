@@ -1,0 +1,14 @@
+IF trigger == "click"
+
+	IF slot == 0
+		#TP {"shopLocation"}
+	ENDIF
+
+	IF slot == 2
+		#GUI "uc_sell_main"
+	ENDIF
+
+	IF slot == 4
+		#GUI "is_sell"
+	ENDIF
+ENDIF

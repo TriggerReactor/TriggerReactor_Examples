@@ -1,3 +1,8 @@
-#MESSAGE "xp gained "+xpGained
-#MESSAGE "type "+skill
-#MESSAGE "level "+skillLevel
+IF theguild
+    group = theguild.member(player).getGroup()
+    IF(group)
+        guild = group.getGuild()
+        
+        theguild.guildGiveExp(guild, xpGained * 0.0001)
+    ENDIF
+ENDIF

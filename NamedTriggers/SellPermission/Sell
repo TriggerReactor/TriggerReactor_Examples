@@ -1,0 +1,18 @@
+//'permission' for permission
+//'price' for money
+
+IF vault
+    IF !player.hasPermission(permission)
+        IF vault.take(player, price)
+            #MESSAGE "&a돈 &6"+price+" &a원 을 지출 했습니다."
+            #MESSAGE "&a구입 성공!"
+            vault.permit(player, permission)
+        ELSE
+            #MESSAGE "&c돈이 부족합니다"
+        ENDIF
+    ELSE
+        #MESSAGE "&7이미 있는 퍼미션 입니다."
+    ENDIF
+ELSE
+    #MESSAGE "vault 없음."
+ENDIF

@@ -1,0 +1,8 @@
+IF trigger == "click"
+    IF slot == 10 // pet
+        #GUI "uc_sell_pets"
+    ENDIF
+	IF slot == 14 // particles
+		#GUI "uc_sell_particles"
+	ENDIF
+ENDIF

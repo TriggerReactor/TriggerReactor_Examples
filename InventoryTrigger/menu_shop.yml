@@ -1,0 +1,17 @@
+Size: 54
+Items:
+  '0':
+    Type: GOLDEN_APPLE
+    Amount: 1
+    Data: 0
+    Title: '&d거래 장터'
+  '2':
+    Type: ENDER_CHEST
+    Amount: 1
+    Data: 0
+    Title: '&b코스매틱 상점'
+  '4':
+    Type: GRASS
+    Amount: 1
+    Data: 0
+    Title: '&b섬 확장'

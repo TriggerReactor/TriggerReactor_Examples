@@ -1,0 +1,50 @@
+IF trigger == "open"
+    defaultPrice = 100000
+   
+	i = 1
+	item = inventory.getItem(i)
+	addLore(item, "&6"+formatCurrency(defaultPrice * i))
+	inventory.setItem(i, item)
+	
+	i = 3
+	item = inventory.getItem(i)
+	addLore(item, "&6"+formatCurrency(defaultPrice * i))
+	inventory.setItem(i, item)
+	
+	i = 5
+	item = inventory.getItem(i)
+	addLore(item, "&6"+formatCurrency(defaultPrice * i))
+	inventory.setItem(i, item)
+	
+	i = 7
+	item = inventory.getItem(i)
+	addLore(item, "&6"+formatCurrency(defaultPrice * i))
+	inventory.setItem(i, item)
+ENDIF
+
+IF trigger == "click"
+    IF slot == 1 // 200
+        permission="askyblock.island.range.200";price=defaultPrice;#CALL "SellPermission:Sell" 
+    ENDIF
+    IF slot == 3 // 300
+		IF player.hasPermission("askyblock.island.range.200")
+			permission="askyblock.island.range.300";price=defaultPrice * 3;#CALL "SellPermission:Sell" 		
+		ELSE
+			#MESSAGE "&c선행 퍼미션이 없습니다! 선행 퍼미션을 먼저 구매하세요."
+		ENDIF
+    ENDIF
+    IF slot == 5 // 400
+		IF player.hasPermission("askyblock.island.range.300")
+	        permission="askyblock.island.range.400";price=defaultPrice * 5;#CALL "SellPermission:Sell" 	
+		ELSE
+			#MESSAGE "&c선행 퍼미션이 없습니다! 선행 퍼미션을 먼저 구매하세요."
+		ENDIF
+    ENDIF
+    IF slot == 7 // 500
+		IF player.hasPermission("askyblock.island.range.400")
+		    permission="askyblock.island.range.480";price=defaultPrice * 8;#CALL "SellPermission:Sell" 
+		ELSE
+			#MESSAGE "&c선행 퍼미션이 없습니다! 선행 퍼미션을 먼저 구매하세요."
+		ENDIF
+    ENDIF
+ENDIF

@@ -1,0 +1,51 @@
+Size: 54
+Items:
+  '10':
+    Type: INK_SACK
+    Amount: 1
+    Data: 0
+    Title: '&6RainCloud'
+    Lore:
+    - 비가 옵니다!
+  '11':
+    Type: SNOW_BALL
+    Amount: 1
+    Data: 0
+    Title: '&6SnowCloud'
+    Lore:
+    - 눈이 옵니다!
+  '12':
+    Type: REDSTONE
+    Amount: 1
+    Data: 0
+    Title: '&6BloodHelix'
+    Lore:
+    - 파.괘.한.다
+  '13':
+    Type: PACKED_ICE
+    Amount: 1
+    Data: 0
+    Title: '&6FrostLord'
+    Lore:
+    - 눈의 제왕이 되어 보세요!
+  '14':
+    Type: BLAZE_POWDER
+    Amount: 1
+    Data: 0
+    Title: '&6FlameRings'
+    Lore:
+    - 화염의 기운이 느껴집니다!
+  '15':
+    Type: RED_ROSE
+    Amount: 1
+    Data: 0
+    Title: '&6InLove'
+    Lore:
+    - 이것이 바로 사랑!
+  '16':
+    Type: EMERALD
+    Amount: 1
+    Data: 0
+    Title: '&6GreenSparks'
+    Lore:
+    - 운이 좋아질 것 같은 기분!

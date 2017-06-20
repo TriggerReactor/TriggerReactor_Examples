@@ -1,7 +1,1 @@
-areaName = currentArea(player)
-
-IF areaName == "tutorialArea"
-#MESSAGE "���⼭�� ����� �� �����ϴ�."
-ELSE
-#GUI "menu"
-ENDIF
+#GUI "menu" 

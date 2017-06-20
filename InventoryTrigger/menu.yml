@@ -1,0 +1,42 @@
+Size: 45
+Items:
+  '18':
+    Type: GRASS
+    Amount: 1
+    Data: 0
+    Title: '&a섬으로 '
+  '20':
+    Type: GOLD_INGOT
+    Amount: 1
+    Data: 0
+    Title: '&6상점으로 '
+  '0':
+    Type: COMPASS
+    Amount: 1
+    Data: 0
+    Title: '&4로비로 가기 '
+  '22':
+    Type: DIAMOND_PICKAXE
+    Amount: 1
+    Data: 0
+    Title: '&d야생으로 가기'
+  '8':
+    Type: BOOK
+    Amount: 1
+    Data: 0
+    Title: '&b튜토리얼 다시보기 '
+  '24':
+    Type: EXP_BOTTLE
+    Amount: 1
+    Data: 0
+    Title: '&bRPG'
+  '26':
+    Type: NETHER_STAR
+    Amount: 1
+    Data: 0
+    Title: '&6코스매틱'
+  '28':
+    Type: DIRT
+    Amount: 1
+    Data: 1
+    Title: '&5놀러가기'

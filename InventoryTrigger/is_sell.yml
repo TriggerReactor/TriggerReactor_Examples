@@ -1,0 +1,31 @@
+Size: 9
+Items:
+  '1':
+    Type: GRASS
+    Amount: 2
+    Data: 0
+    Title: '&6200으로 증가'
+    Lore:
+    - 뿜뿜!
+  '3':
+    Type: GRASS
+    Amount: 3
+    Data: 0
+    Title: '&6300으로 증가'
+    Lore:
+    - 200으로 증가 필요
+  '5':
+    Type: GRASS
+    Amount: 4
+    Data: 0
+    Title: '&6400으로 증가'
+    Lore:
+    - 300으로 증가 필요
+  '7':
+    Type: GRASS
+    Amount: 5
+    Data: 0
+    Title: '&6480으로 증가'
+    Lore:
+    - 400으로 증가 필요
+    - 최대치 입니다!
