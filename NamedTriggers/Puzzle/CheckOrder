@@ -1,0 +1,12 @@
+//'playeruuid' uuid of player
+//'maxClick' how much time before solving puzzle
+//'locOrder' order of block 
+//'solved' this will be the output
+
+solved = true
+FOR n = 0:maxClick
+    checkingLoc = {"puzzle."+playeruuid+".clicked."+n}
+    IF !locationEqual(locOrder[n], checkingLoc)
+        solved = false
+    ENDIF
+ENDFOR

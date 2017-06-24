@@ -4,9 +4,4 @@ Items:
     Type: BONE
     Amount: 1
     Data: 0
-    Title: '&b펫'
-  '14':
-    Type: NETHER_STAR
-    Amount: 1
-    Data: 0
-    Title: '&e파티클'
+    Title: '&6Pet'

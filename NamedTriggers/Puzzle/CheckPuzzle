@@ -1,0 +1,32 @@
+//'player' the target player
+//'block' clicked puzzle block
+//'maxClick' how much time before solving puzzle
+//'locOrder' order of blocks
+//'solved' this will be the output
+
+playeruuid = player.getUniqueId()
+count = {"puzzle."+playeruuid+".clickcount"}
+IF !count
+    count = 0
+ENDIF
+
+//This is when to solve puzzle
+IF count == maxClick - 1
+    //reset the count
+    {"puzzle."+playeruuid+".clickcount"} = 0
+    
+    //forth location
+    {"puzzle."+playeruuid+".clicked."+count} = block.getLocation()
+    #CALL "Puzzle:CheckOrder"
+    //reset puzzle
+    {"puzzle."+playeruuid+".clicked"} = 0
+    
+//Otherwise set click orders
+ELSE
+    //increase count and set block
+    {"puzzle."+playeruuid+".clickcount"} = count + 1
+        
+    {"puzzle."+playeruuid+".clicked."+count} = block.getLocation()
+    
+    #MESSAGE (count+1) +" / "+maxClick
+ENDIF

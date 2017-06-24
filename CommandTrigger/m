@@ -1,1 +1,7 @@
-#GUI "menu" 
+areaName = currentArea(player)
+
+IF areaName == "tutorialArea"
+#MESSAGE "���⼭�� ����� �� �����ϴ�."
+ELSE
+#GUI "menu"
+ENDIF

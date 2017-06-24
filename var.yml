@@ -23,9 +23,9 @@ clarent:
     - '§dCraftLevel§7 : §63'
     - ''
     - §3[EMCRPGItem]
-    ItemFlags: !!set
-      HIDE_UNBREAKABLE: null
-      HIDE_ATTRIBUTES: null
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
     Unbreakable: true
 horror:
   c66e482c-648c-3dce-bdb5-61a955e748c8:
@@ -37,69 +37,8 @@ horror:
       sounded: true
     world,-80,63,314:
       sounded: true
-tutorial:
-  locations:
-    phase1:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 59.487209524406964
-      y: 74.0
-      z: 253.96591103695528
-      pitch: -3.9000194
-      yaw: -180.59973
-    phase2:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 59.42988883089917
-      y: 74.0
-      z: 241.89501886736832
-      pitch: -5.5500183
-      yaw: -180.44969
-    phase3:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 59.47248640728707
-      y: 74.0
-      z: 229.29856593571583
-      pitch: -5.5500183
-      yaw: -180.44969
-    phase4:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 59.579185985550104
-      y: 74.0
-      z: 216.4006074432882
-      pitch: -5.5500183
-      yaw: -180.44969
-    phase5:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 56.99408313847201
-      y: 74.0
-      z: 196.61488560614285
-      pitch: -13.650002
-      yaw: -89.24983
-    phase6:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 67.94894823121395
-      y: 74.0
-      z: 196.48300567834156
-      pitch: -15.0000105
-      yaw: -88.79972
-    start:
-      ==: org.bukkit.Location
-      world: ETC
-      x: 59.43904867223398
-      y: 74.5
-      z: 261.3617564856119
-      pitch: 3.3000271
-      yaw: -180.29991
-shopLocation:
-  ==: org.bukkit.Location
-  world: newS
-  x: 123.10123063225349
-  y: 66.5
-  z: -118.56008845126217
-  pitch: -1.5000172
-  yaw: -266.25085
+puzzle:
+  c66e482c-648c-3dce-bdb5-61a955e748c8:
+    phase: 1
+    clickcount: 0
+    clicked: 0

@@ -8,5 +8,5 @@ key = "horror."+player.getUniqueId()+"."+world+","+x+","+y+","+z+".sounded"
 
 IF !{key}
     {key} = true
-    #SOUND loc sound 1.0 1.0
+    #SOUND loc sound volume 1.0
 ENDIF

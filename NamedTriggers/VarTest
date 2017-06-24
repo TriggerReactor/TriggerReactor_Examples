@@ -1,0 +1,4 @@
+item = inventory.getItem(index)
+clearLore(item)
+addLore(item, text)
+inventory.setItem(index, item)

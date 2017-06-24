@@ -3,6 +3,6 @@ IF theguild
     IF(group)
         guild = group.getGuild()
         
-        theguild.guildGiveExp(guild, xpGained * 0.0001)
+        theguild.guildGiveExp(guild, xpGained * 0.001)
     ENDIF
 ENDIF

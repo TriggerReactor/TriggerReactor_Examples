@@ -1,0 +1,11 @@
+maxClick = 4 //set this to count whatever you want
+locOrder = array(maxClick)
+locOrder[0] = location("world", -79, 62, 318)
+locOrder[1] = location("world", -79, 62, 318)
+locOrder[2] = location("world", -79, 62, 318)
+locOrder[3] = location("world", -79, 62, 318)
+
+#CALL "Puzzle:CheckPuzzle"
+IF solved
+    #MESSAGE "Solved"
+ENDIF

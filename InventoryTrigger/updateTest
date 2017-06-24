@@ -1,11 +1,23 @@
 IF trigger == "open"
     WHILE(true)
-        userCount = getPlayers().size()
         countItem = item(1, 1)
-        setItemTitle(countItem, "&6Online users")
-        clearLore(countItem)
-        addLore(countItem, "Currently: "+userCount)
+        setItemTitle(countItem, "&6Online users0")
         inventory.setItem(0, countItem)
+        
+        countItem = item(1, 2)
+        setItemTitle(countItem, "&6Online users2")
+        inventory.setItem(2, countItem)
+    
+        index = 0
+        text = "&atest0";#CALL "VarTest"
+        index = 2
+        text = "&btest2";#CALL "VarTest"
+        #WAIT 1
+        
+        index = 0
+        text = "&ftest0";#CALL "VarTest"
+        index = 2
+        text = "&ftest2";#CALL "VarTest"
         #WAIT 1
     ENDWHILE
 ENDIF
