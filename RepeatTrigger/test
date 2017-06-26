@@ -1,0 +1,11 @@
+IF trigger == "init"
+    #LOG "init"
+ENDIF
+
+IF trigger == "repeat"
+    #LOG "repeat"
+ENDIF
+
+IF trigger == "stop"
+    #LOG "stop"
+ENDIF
