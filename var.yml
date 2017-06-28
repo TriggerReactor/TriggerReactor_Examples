@@ -42,3 +42,35 @@ puzzle:
     phase: 1
     clickcount: 0
     clicked: 0
+door:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.52700310691769
+  y: 64.0
+  z: 315.5126336543544
+  pitch: 88.499985
+  yaw: 69.00152
+sign:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.596814922492
+  y: 64.0
+  z: 314.39403007686184
+  pitch: 90.0
+  yaw: 86.25152
+abovedoor:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.48750001192093
+  y: 67.61784416669292
+  z: 315.4041612330428
+  pitch: 69.450005
+  yaw: 248.55144
+itemframe:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.8088442440511
+  y: 64.0
+  z: 313.5426481703776
+  pitch: 45.149986
+  yaw: 266.7014

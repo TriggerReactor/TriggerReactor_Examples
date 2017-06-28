@@ -1,0 +1,5 @@
+target = getTargetBlock(player, 5)
+FOR line = 0:args.length
+    #WORLD:SIGNEDIT line args[line] target.getLocation()
+ENDFOR
+
