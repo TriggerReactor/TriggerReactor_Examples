@@ -74,3 +74,19 @@ itemframe:
   z: 313.5426481703776
   pitch: 45.149986
   yaw: 266.7014
+lever:
+  ==: org.bukkit.Location
+  world: world
+  x: -67.37427926170422
+  y: 64.0
+  z: 316.40933266320246
+  pitch: 67.20003
+  yaw: -92.54834
+targetblock:
+  ==: org.bukkit.Location
+  world: world
+  x: -68.72481194035807
+  y: 64.0
+  z: 316.396862340921
+  pitch: 78.30002
+  yaw: -75.598335

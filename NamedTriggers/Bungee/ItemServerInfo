@@ -1,0 +1,15 @@
+//'inventory' inventory to update
+//'index' item index
+//'address' address of server
+//'message' message color
+
+IF placeholder
+	item = inventory.getItem(index)
+	clearLore(item)
+	addLore(item, placeholder.parse(player, "&7상태&8: &6%pinger_isonline_"+address+"%"))
+	addLore(item, placeholder.parse(player, "&7접속자 수&8: &6%pinger_players_"+address+"%"))
+	addLore(item, placeholder.parse(player, "&7버전&8: &6%pinger_gameversion_"+address+"%"))
+	addLore(item, "")
+	addLore(item, color(message))
+	inventory.setItem(index, item)
+ENDIF

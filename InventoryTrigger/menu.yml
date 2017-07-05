@@ -1,42 +1,36 @@
-Size: 45
+Size: 9
 Items:
-  '18':
+  '0':
     Type: GRASS
     Amount: 1
     Data: 0
+    Title: '&a스카이블록&7/&e야생 '
+  '8':
+    Type: AIR
+    Amount: 0
+    Data: -1
+    Title: '&b튜토리얼 다시보기 '
+  '18':
+    Type: AIR
+    Amount: 0
+    Data: -1
     Title: '&a섬으로 '
   '20':
-    Type: GOLD_INGOT
-    Amount: 1
-    Data: 0
+    Type: AIR
+    Amount: 0
+    Data: -1
     Title: '&6상점으로 '
-  '0':
-    Type: COMPASS
-    Amount: 1
-    Data: 0
-    Title: '&4로비로 가기 '
   '22':
-    Type: DIAMOND_PICKAXE
+    Type: AIR
+    Amount: 0
+    Data: -1
+  '2':
+    Type: DIAMOND_SWORD
     Amount: 1
     Data: 0
-    Title: '&d야생으로 가기'
-  '8':
-    Type: BOOK
+    Title: '&b전쟁 서버 '
+  '4':
+    Type: BREWING_STAND_ITEM
     Amount: 1
     Data: 0
-    Title: '&b튜토리얼 다시보기 '
-  '24':
-    Type: EXP_BOTTLE
-    Amount: 1
-    Data: 0
-    Title: '&bRPG'
-  '26':
-    Type: NETHER_STAR
-    Amount: 1
-    Data: 0
-    Title: '&6코스매틱'
-  '28':
-    Type: DIRT
-    Amount: 1
-    Data: 1
-    Title: '&5놀러가기'
+    Title: '&d미니게임'

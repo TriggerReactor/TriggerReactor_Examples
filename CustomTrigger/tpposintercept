@@ -1,0 +1,9 @@
+#LOG "TEST: "+event.getCommand()
+IF event.getCommand().startsWith("/tppos")
+    split = event.getCommand().split(" ")
+    IF split.length == 5
+        #TPPOS split[1] split[2] split[3] split[4]
+    ELSE
+        #LOG "/tppos <player> <x> <y> <z>"
+    ENDIF
+ENDIF

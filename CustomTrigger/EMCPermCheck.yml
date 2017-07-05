@@ -1,2 +1,2 @@
 Sync: true
-Event: io.github.wysohn.triggerreactor.manager.event.PlayerPermissionCheckEvent
+Event: io.github.wysohn.triggerreactor.bukkit.manager.event.PlayerPermissionCheckEvent
