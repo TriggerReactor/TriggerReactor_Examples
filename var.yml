@@ -232,3 +232,133 @@ inventorysave:
       '40':
         ==: org.bukkit.inventory.ItemStack
         type: AIR
+  c66e482c-648c-3dce-bdb5-61a955e748c8:
+    test1:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '9':
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+      '10':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '11':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '12':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '13':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '14':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '15':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '16':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '17':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '18':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '19':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '21':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '22':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '23':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '24':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '25':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '26':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '27':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '28':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '29':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_EXPLOSIONS: 4
+      '31':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '32':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '33':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '34':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '35':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '36':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '37':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '38':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '39':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        type: AIR

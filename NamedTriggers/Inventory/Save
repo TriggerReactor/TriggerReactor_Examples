@@ -4,8 +4,8 @@
 items = player.getInventory().getContents()
 FOR i = 0:items.length
     IF items[i]
-        {"inventorysave."+player+"."+invname+"."+i} = items[i]
+        {"inventorysave."+player.getUniqueId()+"."+invname+"."+i} = items[i]
     ELSE
-        {"inventorysave."+player+"."+invname+"."+i} = item(0, 1)
+        {"inventorysave."+player.getUniqueId()+"."+invname+"."+i} = item(0, 1)
     ENDIF
 ENDFOR
