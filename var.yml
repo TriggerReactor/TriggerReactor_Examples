@@ -90,3 +90,16 @@ targetblock:
   z: 316.396862340921
   pitch: 78.30002
   yaw: -75.598335
+inventorysave:
+  CraftPlayer{name=wysohn}:
+    '9':
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    '32':
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        stored-enchants:
+          PROTECTION_EXPLOSIONS: 4

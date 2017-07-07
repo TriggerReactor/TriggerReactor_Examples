@@ -1,0 +1,11 @@
+//'player' target
+//'invname' name of storage
+
+FOR i = 0:player.getInventory().getContents().length
+    item = {"inventorysave."+player+"."+invname+"."+i}
+    IF item
+        player.getInventory().setItem(i, item)
+    ELSE
+        player.getInventory().setItem(i, item(0, 1))
+    ENDIF
+ENDFOR
