@@ -1,0 +1,4 @@
+IF !player.hasPermission("tutorial.finished")
+	#WAIT 2
+    #TP {"tutorial.locations.start"} 
+ENDIF

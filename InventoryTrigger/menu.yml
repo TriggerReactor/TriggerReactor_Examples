@@ -1,36 +1,50 @@
-Size: 9
+Size: 45
 Items:
-  '0':
+  '18':
     Type: GRASS
     Amount: 1
     Data: 0
-    Title: '&a스카이블록&7/&e야생 '
-  '8':
-    Type: AIR
-    Amount: 0
-    Data: -1
-    Title: '&b튜토리얼 다시보기 '
-  '18':
-    Type: AIR
-    Amount: 0
-    Data: -1
     Title: '&a섬으로 '
   '20':
-    Type: AIR
-    Amount: 0
-    Data: -1
+    Type: GOLD_INGOT
+    Amount: 1
+    Data: 0
     Title: '&6상점으로 '
+  '0':
+    Type: COMPASS
+    Amount: 1
+    Data: 0
+    Title: '&4로비로 가기 '
   '22':
-    Type: AIR
-    Amount: 0
-    Data: -1
-  '2':
-    Type: DIAMOND_SWORD
+    Type: DIAMOND_PICKAXE
     Amount: 1
     Data: 0
-    Title: '&b전쟁 서버 '
-  '4':
-    Type: BREWING_STAND_ITEM
+    Title: '&d야생으로 가기'
+  '8':
+    Type: BOOK
     Amount: 1
     Data: 0
-    Title: '&d미니게임'
+    Title: '&b튜토리얼 다시보기 '
+  '24':
+    Type: EXP_BOTTLE
+    Amount: 1
+    Data: 0
+    Title: '&bRPG'
+  '26':
+    Type: NETHER_STAR
+    Amount: 1
+    Data: 0
+    Title: '&6코스매틱'
+  '40':
+    Type: DIRT
+    Amount: 1
+    Data: 1
+    Title: '&5놀러가기'
+  '36':
+    Type: MOB_SPAWNER
+    Amount: 1
+    Data: 0
+    Title: '&6던전'
+    Lore:
+    - '&7던전에 도전 합니다.'
+    - '&c주의: 사망시 아이템 떨굼'

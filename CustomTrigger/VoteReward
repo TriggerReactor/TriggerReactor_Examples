@@ -1,0 +1,20 @@
+IF event.voteSite.serviceSite == "MineList.kr"
+	#BROADCAST "&6"+event.player.getPlayerName()+" &a님이 투표를 해 주셨습니다. 감사합니다!"
+	#BROADCAST "&6"+event.voteSite.serviceSite+" &a에 투표 하고 상품도 받으세요!"
+
+	rewards = {"votereward."+event.player.getUUID()+".rewards"}
+
+	IF rewards
+		rewards = rewards + 1
+		{"votereward."+event.player.getUUID()+".rewards"} = rewards
+	ELSE
+		{"votereward."+event.player.getUUID()+".rewards"} = 1
+	ENDIF
+	
+	p = player(event.player.getPlayerName())
+	IF p
+		p.sendMessage(color("&a추천 코인은 재접속 시 받으실 수 있습니다."))
+	ENDIF
+	
+	#LOG event.player.getPlayerName()+" 투표 받음. 현재 보상 대기 수: "+ rewards
+ENDIF

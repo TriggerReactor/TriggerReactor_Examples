@@ -1,0 +1,6 @@
+
+IF trigger == "click"
+	IF slot == 0
+		#TP {"dungeon1.start"}
+	ENDIF
+ENDIF

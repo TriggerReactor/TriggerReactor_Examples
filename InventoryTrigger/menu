@@ -1,62 +1,83 @@
 IF trigger == "open"
-	WHILE true
-		//sky
-		index = 0
-		address = "127.0.0.1:25501"
-		message = "&a>> 클릭 시 스카이/야생 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		//war
-		index = 2
-		address = "127.0.0.1:25502"
-		message = "&a>> 클릭 시 전쟁 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		//mini
-		index = 4
-		address = "127.0.0.1:25503"
-		message = "&a>> 클릭 시 미니게임 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		#WAIT 1
+	WHILE(true)
+		userName = player.getName()
+		userCount = getPlayers().size()
+		userBalance = vault.balance(player)
+		countItem = item(397, 1, 3)
+		setItemTitle(countItem, "&7안녕하세요, &6"+userName+"&7님!")
+		clearLore(countItem)
+		addLore(countItem, "&7현재 서버에 &6"+userCount+"&7명이 접속 중 입니다.")
+		addLore(countItem, "&7소유금: &6"+userBalance)
+		inventory.setItem(4, countItem)
 		
-		//sky
-		index = 0
-		address = "127.0.0.1:25501"
-		message = "&f>> 클릭 시 스카이/야생 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		//war
-		index = 2
-		address = "127.0.0.1:25502"
-		message = "&f>> 클릭 시 전쟁 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		//mini
-		index = 4
-		address = "127.0.0.1:25503"
-		message = "&f>> 클릭 시 미니게임 서버 이동"
-		#CALL "Bungee:ItemServerInfo"
-		#WAIT 1
+		IF placeholder	
+			lobbyitem = inventory.getItem(0)
+			clearLore(lobbyitem)
+			addLore(lobbyitem, placeholder.parse(player, "&7상태&8: &6%pinger_isonline_127.0.0.1:25500%"))
+			addLore(lobbyitem, placeholder.parse(player, "&7접속자 수&8: &6%pinger_players_127.0.0.1:25500%"))
+			addLore(lobbyitem, placeholder.parse(player, "&7버전&8: &6%pinger_gameversion_127.0.0.1:25500%"))
+			inventory.setItem(0, lobbyitem)
+			
+			isitem = inventory.getItem(18)
+			clearLore(isitem)
+			addLore(isitem, placeholder.parse(player, "&4섬 레벨&8: &6%askyblock_level%"))
+			addLore(isitem, placeholder.parse(player, "&4팀원 수&8: &6%askyblock_team_size%"))
+			inventory.setItem(18, isitem)
+			
+			mmoitem = inventory.getItem(24)
+			clearLore(mmoitem)
+			addLore(mmoitem, placeholder.parse(player, "&4비무장&8: &6%mcmmo_level_unarmed%"))
+			addLore(mmoitem, placeholder.parse(player, "&4궁술&8: &6%mcmmo_level_archery%"))
+			addLore(mmoitem, placeholder.parse(player, "&4검술&8: &6%mcmmo_level_swords%"))
+			addLore(mmoitem, placeholder.parse(player, "&4부술&8: &6%mcmmo_level_axes%"))
+			addLore(mmoitem, placeholder.parse(player, "&4조련&8: &6%mcmmo_level_taming%"))
+			
+			addLore(mmoitem, placeholder.parse(player, "&4채광&8: &6%mcmmo_level_mining%"))
+			addLore(mmoitem, placeholder.parse(player, "&4벌목&8: &6%mcmmo_level_woodcutting%"))
+			addLore(mmoitem, placeholder.parse(player, "&4약초학&8: &6%mcmmo_level_herbalism%"))
+			addLore(mmoitem, placeholder.parse(player, "&4발굴&8: &6%mcmmo_level_excavation%"))
+			addLore(mmoitem, placeholder.parse(player, "&4낚시&8: &6%mcmmo_level_fishing%"))
+			
+			addLore(mmoitem, placeholder.parse(player, "&4수리&8: &6%mcmmo_level_repair%"))
+			addLore(mmoitem, placeholder.parse(player, "&4곡예&8: &6%mcmmo_level_acrobatics%"))
+			addLore(mmoitem, placeholder.parse(player, "&4재활용&8: &6%mcmmo_level_salvage%"))
+			//addLore(mmoitem, placeholder.parse(player, "&4제련술&8: &6%mcmmo_level_smelting%"))
+			addLore(mmoitem, placeholder.parse(player, "&4연금술&8: &6%mcmmo_level_alchemy%"))
+			inventory.setItem(24, mmoitem)
+		ENDIF
+		
+		#WAIT 5
 	ENDWHILE
 ENDIF
 
 IF trigger == "click"
-	IF isCoolddown
-		#MESSAGE "&6조금 천천히 눌러주세요."
-		#STOP
-	ENDIF
-	
-	isCoolddown = true
-	
 	IF slot == 0
-		#SERVER "skyblock"
-		#BROADCAST "&8[&6서버이동&8]&7 &6"+player.getName()+" &7-> &6SkyBlock"
+		#SERVER "lobby"
+		#BROADCAST "&8[&6서버이동&8]&7 &6"+player.getName()+" &7-> &6Lobby"
 	ENDIF
-	IF slot == 2
-		//#SERVER "war"
-		//#BROADCAST "&8[&6서버이동&8]&7 &6"+player.getName()+" &7-> &6War"
+	IF slot == 8
+		#TP {"tutorial.locations.start"} 
 	ENDIF
-	IF slot == 4
-		#SERVER "minigames"
-		#BROADCAST "&8[&6서버이동&8]&7 &6"+player.getName()+" &7-> &6MiniGames"
+	IF slot == 18
+		#CMD "is"
 	ENDIF
-	
-	#WAIT 1
-	isCoolddown = false
+	IF slot == 20
+		#GUI "menu_shop"
+	ENDIF
+	IF slot == 22
+		#CMD "rtp"
+	ENDIF
+	IF slot == 24
+		#CMD "mcmmo"
+		player.closeInventory()
+	ENDIF
+	IF slot == 26
+		#CMDOP "uc menu main"
+	ENDIF
+	IF slot == 36
+		#GUI "menu_dungeon"
+	ENDIF
+	IF slot == 40
+		#CMD "is warps"
+	ENDIF
 ENDIF

@@ -1,0 +1,3 @@
+IF entity.getWorld().getName() != "world"
+	event.blockList().clear()
+ENDIF

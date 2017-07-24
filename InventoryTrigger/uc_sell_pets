@@ -21,8 +21,6 @@ IF trigger == "open"
 ENDIF
 
 IF trigger == "click"
-    defaultPrice = 1000000 - 0.02
-    
     IF slot == 10 // piggy
         permission="ultracosmetics.pets.piggy";price=defaultPrice;#CALL "SellPermission:Sell" 
     ENDIF
@@ -52,6 +50,8 @@ IF trigger == "click"
         permission="ultracosmetics.pets.wither";price=defaultPrice;#CALL "SellPermission:Sell" 
     ENDIF
     IF slot == 21 // pumpling
+		#MESSAGE "이 펫은 제대로 작동 되지 않습니다."
+		#STOP
         permission="ultracosmetics.pets.pumpling";price=defaultPrice;#CALL "SellPermission:Sell" 
     ENDIF
     IF slot == 22 // elf

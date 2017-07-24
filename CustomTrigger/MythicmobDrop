@@ -1,0 +1,8 @@
+IF random(10) == 0
+    item = item(288, 1)
+
+    setItemTitle(item, "&6"+event.getMobType().getDisplayName()+" 의 영혼")
+    addLore(item, "이것으로 뭘 할까?")
+    
+	event.getDrops().add(item)
+ENDIF

@@ -1,0 +1,3 @@
+IF player.hasPermission("upVote")
+	{"votereward."+player.getUniqueId()+".rewards"} = 1
+ENDIF

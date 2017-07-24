@@ -11,4 +11,8 @@ IF trigger == "click"
 	IF slot == 4
 		#GUI "is_sell"
 	ENDIF
+	
+	IF slot == 18
+		#CMDOP "mf shop"
+	ENDIF
 ENDIF

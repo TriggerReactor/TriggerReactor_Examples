@@ -6,74 +6,74 @@ Items:
     Data: 0
     Title: '&6Piggy'
     Lore:
-    - '돼지를 펫으로 키우세요!'
+    - 돼지를 펫으로 키우세요!
   '11':
     Type: WOOL
     Amount: 1
     Data: 0
     Title: '&6Sheep'
     Lore:
-    - '양을 펫으로 키워보세요!'
+    - 양을 펫으로 키워보세요!
   '12':
     Type: CARROT_ITEM
     Amount: 1
     Data: 0
     Title: '&6Easter Bunny'
     Lore:
-    - '토끼를 키워보세요!'
+    - 토끼를 키워보세요!
   '13':
     Type: MILK_BUCKET
     Amount: 1
     Data: 0
     Title: '&6Cow'
     Lore:
-    - '새끼 소 를 키워보세요!'
+    - 새끼 소 를 키워보세요!
   '14':
     Type: RED_MUSHROOM
     Amount: 1
     Data: 0
     Title: '&6Mooshroom'
     Lore:
-    - '버섯소를 키워보세요!'
+    - 버섯소를 키워보세요!
   '15':
     Type: RAW_FISH
     Amount: 1
     Data: 0
     Title: '&6Kitty'
     Lore:
-    - '고양이 입니다!'
+    - 고양이 입니다!
   '16':
     Type: BONE
     Amount: 1
     Data: 0
     Title: '&6Dog'
     Lore:
-    - '멍멍이!'
+    - 멍멍이!
   '19':
     Type: EGG
     Amount: 1
     Data: 0
     Title: '&6Chick'
     Lore:
-    - '이건 식용이 아닙니다!'
+    - 이건 식용이 아닙니다!
   '20':
     Type: SKULL_ITEM
     Amount: 1
     Data: 1
     Title: '&6Wither'
     Lore:
-    - '위험해 보이지만...'
+    - 위험해 보이지만...
   '21':
     Type: PUMPKIN
     Amount: 1
     Data: 0
     Title: '&6Pumpling'
     Lore:
-    - '날아다니는 호박!'
+    - 날아다니는 호박!
   '22':
     Type: BEACON
     Amount: 1
     Data: 0
     Title: '&6Christmas Elf'
     Lore:
-    - '선물을 뿌리는 신비한 요정!'
+    - 선물을 뿌리는 신비한 요정!

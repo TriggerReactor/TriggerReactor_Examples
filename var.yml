@@ -1,364 +1,418 @@
-test: '"HIHI"'
-clarent:
+tutorial:
+  locations:
+    phase1:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 59.487209524406964
+      y: 74.0
+      z: 253.96591103695528
+      pitch: -3.9000194
+      yaw: -180.59973
+    phase2:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 59.42988883089917
+      y: 74.0
+      z: 241.89501886736832
+      pitch: -5.5500183
+      yaw: -180.44969
+    phase3:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 59.47248640728707
+      y: 74.0
+      z: 229.29856593571583
+      pitch: -5.5500183
+      yaw: -180.44969
+    phase4:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 59.579185985550104
+      y: 74.0
+      z: 216.4006074432882
+      pitch: -5.5500183
+      yaw: -180.44969
+    phase5:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 56.99408313847201
+      y: 74.0
+      z: 196.61488560614285
+      pitch: -13.650002
+      yaw: -89.24983
+    phase6:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 67.94894823121395
+      y: 74.0
+      z: 196.48300567834156
+      pitch: -15.0000105
+      yaw: -88.79972
+    start:
+      ==: org.bukkit.Location
+      world: ETC
+      x: 59.43904867223398
+      y: 74.5
+      z: 261.3617564856119
+      pitch: 3.3000271
+      yaw: -180.29991
+shopLocation:
+  ==: org.bukkit.Location
+  world: newS
+  x: 123.10123063225349
+  y: 66.5
+  z: -118.56008845126217
+  pitch: -1.5000172
+  yaw: -266.25085
+votereward:
+  'null':
+    rewards: 1
+  d8d5a923-7b20-43d8-883b-1150148d6955:
+    rewards: 3
+  0976bffd-18a2-42f2-be1e-0918aaaafd3e:
+    rewards: 1
+  0b9b49df-b90f-44fd-9825-eda34544fc3d:
+    rewards: 0
+  e614ab1b-5f8f-449e-8dc7-a1a61b054e61:
+    rewards: 0
+  31dbfa32-0e0f-48e5-9b0f-27142d6f06ac:
+    rewards: 0
+  990f9bbd-7404-43e4-96db-344ce21b2329:
+    rewards: 0
+  550bc831-b08d-45a2-8eb9-c3ba1ce14f09:
+    rewards: 0
+  dc385b6a-20fe-4403-840e-b63c207ff10e:
+    rewards: 0
+  c907f488-6474-4284-b517-86d8a314cd3a:
+    rewards: 0
+  2776e467-3ced-4331-98cb-5da4d9ca651b:
+    rewards: 0
+  e8985fcd-2f1d-4c30-a421-47c6f838f90f:
+    rewards: 0
+  9987f6d1-2d7e-4d20-9750-6dcc849eddd5:
+    rewards: 0
+  8af67699-7477-4d8e-95e8-54600e803069:
+    rewards: 0
+  bc69f7b0-56bf-45e6-bcec-85284458fe71:
+    rewards: 0
+  f3c42a13-5bcb-4cb8-b597-465d7290ba5d:
+    rewards: 0
+  0760ef60-b7ec-453b-bb0b-6b54da330355:
+    rewards: 0
+  979a9cc9-b729-492b-835b-2de03d86ca66:
+    rewards: 0
+  dce9f583-f513-442d-b093-79abb1aa6752:
+    rewards: 0
+  75e08d03-2262-4589-8e47-43029010da80:
+    rewards: 0
+  7e1fee35-a1fa-424e-bf05-7aead2fbd5ff:
+    rewards: 0
+  bbf30af4-6131-4e3c-94bb-1a9a4132248d:
+    rewards: 0
+  51117b4c-74be-40de-9310-3ecdbd2fd5ef:
+    rewards: 0
+  18354af2-8c1e-42ac-a34f-0a3615928736:
+    rewards: 0
+  7e6bb3c0-4cec-4157-8a0a-f1e2544fdc02:
+    rewards: 0
+  9afd42b7-38ea-434c-8c86-d0d7c955c011:
+    rewards: 0
+  9a14ae04-a97b-4190-997d-1ee12d09fb6b:
+    rewards: 0
+  5063cc70-9de0-4e68-a1c3-169f12616e6f:
+    rewards: 0
+  3f363670-da43-4d5c-a5c2-1684cdfcda4c:
+    rewards: 0
+  affe88b1-dc55-45d8-8871-23113f36100a:
+    rewards: 0
+  f93f396e-ff8d-4aea-8b5c-416139917fec:
+    rewards: 0
+  3f6e615e-7a2e-448d-b366-2a54c2e80bbe:
+    rewards: 0
+  a175bfba-d38a-4d5e-9144-edaacc6baa2c:
+    rewards: 1
+  b016d4c3-e0c4-4f56-b2de-bf206cba1059:
+    rewards: 0
+  1017dabe-fd1c-40da-99ff-a3fa9db9e327:
+    rewards: 0
+  0c3504af-96b0-43e1-9a17-64621aaac874:
+    rewards: 0
+  f3a38249-8c13-491e-9975-cdf31db5dc78:
+    rewards: 0
+  f4919a7f-65c4-3ca1-9232-7be174ca7d2c:
+    rewards: 0
+  49b431a9-a799-4a64-ab86-5f770e1bffae:
+    rewards: 0
+  e5b82583-9027-42ad-8a9a-63537bd24d1b:
+    rewards: 0
+  0a0aa364-2e5c-3325-938d-8fb744a8444c:
+    rewards: 0
+  97b2e80a-3d49-34c3-8b07-c16ba2c24152:
+    rewards: 1
+  d5eb469a-cbe1-4f2d-80b2-82ac2957ad64:
+    rewards: 0
+  dd776a1a-b287-43df-aca1-d86fba63fa27:
+    rewards: 0
+  f8eeb070-6207-4d90-ad14-c51680e2a140:
+    rewards: 0
+  d3dc9750-2164-45f9-874d-8f63ca218dc3:
+    rewards: 0
+  d727eaf7-b2fe-3ccb-8fc0-c3490a9d863a:
+    rewards: 0
+  6776e664-0749-3688-8605-613bf82aad13:
+    rewards: 0
+  f6f018b5-cd18-4dfb-b8d6-95d4de0e9a48:
+    rewards: 0
+  4930d587-68c6-454c-906b-3b164f8c534a:
+    rewards: 0
+  6ead8244-2f97-3b9b-8622-42f7155c6e8f:
+    rewards: 0
+  93ae85ce-96a7-4195-91d2-05fb20d55ef4:
+    rewards: 0
+  eca50ad9-2914-3457-babe-85ee6c638f10:
+    rewards: 0
+  c14155d2-1a6a-3696-a928-8d0636aec2d1:
+    rewards: 0
+  869b7cdc-bdac-4a77-9936-83608659d5f6:
+    rewards: 0
+  366682c6-892e-398f-90c0-985b952d71a0:
+    rewards: 0
+  a4b828d3-6e70-311c-8315-4bd8457a015b:
+    rewards: 1
+  387ba5cf-df2f-474b-bc3b-9fcbeac2d17d:
+    rewards: 0
+  cb321225-a21b-4450-89e7-9678d2179ec6:
+    rewards: 0
+  c7526464-e81d-35b3-80e6-d355d123f197:
+    rewards: 0
+  7db0f6af-f11f-3987-9ae4-a65dbbbf0444:
+    rewards: 0
+  c4a1f9fc-a029-4d12-8ab9-91c46d8e54cd:
+    rewards: 1
+  31db7907-5fc9-4403-9b13-170d2eca0c00:
+    rewards: 0
+  3c7ea53a-1309-4c6f-97f4-6d23e92a2848:
+    rewards: 0
+  9873ffaa-815c-3302-90b3-428fe05374af:
+    rewards: 2
+  98ea934f-28e1-4f66-bf2e-de7cf1265db9:
+    rewards: 0
+  d5429612-0915-3c6b-bd39-a2ec1380f691:
+    rewards: 0
+  dd1cf085-a7c0-47af-92b7-034dabaca380:
+    rewards: 0
+  8dec41fe-1db1-46ff-8e9c-8fb336994264:
+    rewards: 0
+  aa20dea4-a6a4-46d8-9552-ab82505e37fc:
+    rewards: 1
+  c01dca78-0ec2-4181-b6b5-78adb86b52be:
+    rewards: 1
+  8c8bc312-7c31-4f2f-850e-fb06b35877cb:
+    rewards: 0
+  9b070f49-a32a-46ea-b903-f45a560fc551:
+    rewards: 0
+  ec2a357a-578a-4f71-9d36-786238a5887c:
+    rewards: 0
+  dd7dc6cf-9742-43e2-8cc6-4ff0da83d070:
+    rewards: 0
+dungeon1:
+  start:
+    ==: org.bukkit.Location
+    world: newdungeon
+    x: 38.49980738868591
+    y: 64.0
+    z: 412.650997170934
+    pitch: 6.749986
+    yaw: -57.449738
+guidebook:
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: 밀크릭서버 가이드북 1권
+      author: Changsigi
+      pages:
+      - |-
+        밀크릭 서버에 첫발을 내딘 신규 유저 여러분,§0
+        §0모두 환영합니다!§0
+        §0
+        §0저희 밀크릭 서버는 야생+스블,RPG,길드,경제,미니게임§0 등이 복합적으로 적용된 서버로,이 가이드북은 유저 여러분들이 필수적으로 알아야 할 서버의 설명과§0
+        §0명령어 등에 대해 다루고 있습니다.
+      - |2
+
+        §0하지만 중요한 정보와 업데이트,이벤트 등은 네이버 카페§0
+        §0cafe.naver.com/nnmine§0 에 게시되므로, 주기적으로 카페 §0
+        §0활동을 하시길 권장드립니다!§0
+        §0
+        §0
+      - |2-
+
+        §0처음 서버에 접속하셨으면 섬으로 이동하게 됩니다.§0
+        §0서버에는 본인의 섬도 있지만, /spawn 으로 올 수 있는 스폰 장소가 있으며§0
+        §0, 이 곳에서는 길드,강화,상점 등이 로비 내에 위치하고 있습니다.
+      - |2-
+
+        §0/m 을 통해서 서버 내의 거의 모든 명령어를 총괄하는 GUI를 열 수 있습니다.§0
+        §0이 GUI에서는 로비로 가기, 개인 정보, 튜토리얼, 섬, 상점, 야생, 코스매틱(치장)§0
+        §0던전, 남의 섬으로 놀러가기 등 여러가지 기능이 있습니다.
+      - |2
+
+        §0저희 서버의 가장 큰 특징인 점이라면 야생에서 자원을 채집하여 스카이 블록에서 적용시킬 수 §0있다는 점입니다.§0
+        §0
+        §0 그 대신, 야생에서의 집이나 창고 등은 보호가 불가능하니 이 점 유의하시길 바랍니다.§0
+        §0
+      - |-
+        /m을 이용하거나, /rtp를 이용하여 야생으로 이동하실 수 있습니다. 획득가능한 자원을 채집하고 발전시켜 봅시다!§0
+        §0
+        §0신규 유저분이시라면, 처음 24시간은 모든 곳에서 인벤 세이브가 됩니다.§0
+        §0
+        §0이후는 스카이블럭만 세이브가 되니 유의하시길 바랍니다. 또한 죽어도 허기가 다시 차오르지 않으니 식량을 구하는게 급선무입니다.
+      - |2
+
+        §0
+        §0야생이나 스카이 블럭에서 자원을 얻어, /m으로 상점을 이용해 돈이나 재화를 거래하거나, 치장 아이템을 구매하거나,펫을 구매하거나, 섬을 확장할 수 있습니다. 멋진 집을 만들고 좋은 아이템과 예쁜 이펙트을 모아 보세요!§0
+      - |2
+
+        §0
+        §0또한 저희 서버는 MCMMO 플러그인과 던전 컨텐츠를 이용해 좋은 RPG 아이템이나 보물상자를 획득하는 것이 가능합니다. 스킬 레벨을 올리고 좋은 무기를 만들어 친구들과 함께 던전을 공략하고 쟁취하세요!§0
+      - |2-
+
+        §0이 모든것이, 지금 눈 앞에 펼쳐져 있습니다. 조용하고 혼자만의 작품을 만들어도 좋습니다.길드를 만들어 친구들을 사귀고 손을 잡고 던전을 탐험할 수도 있고,장사를 하여 서버 최고의 부자가 될 수도 있습니다. 열심히 마인크래프트를 즐기는 당신을 환영합니다!§0
+        §0-운영진 일동-
+      - |2-
+
+        §0
+        §0추가사항: 이 아이템은 상점에서 매우 낮은 가격으로 구하실 수 있습니다.
+      generation: 0
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    type: WRITTEN_BOOK
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: BOOK_SIGNED
+      title: 밀크릭서버 가이드북 2권
+      author: Changsigi
+      pages:
+      - |
+        <금지사항>§0
+        §0
+        §01. 수직굴§0
+        §0 23칸 이상의 수직굴(가벼운 착지 및 RPG 스텟이 없는 상태에서 추락시 즉사하는 높이)을 팔 경우 3일 밴 처분을 받습니다. 단 수직굴 아래에 물 등 낙사 방지 장치가 있다면 처벌 대상에서 제외됩니다.§0
+      - |
+        2. 욕설 및 대화 분쟁§0
+        §0 타인을 공격할 목적 또는 불만 사항 등으로 인해 욕설을 사용시 10분 이상의 뮤트 처벌을 받을 수 있으며 수위가 높을 경우(패드립 등) 3일 이상의 밴 처분을 받습니다. 또한 분쟁을 유도하기 위해 논란이 될 수 있는 소재(타섭 발언등)를 사용할 경우 영구뮤트 처분을 받을 수 있습니다.§0
+      - |2-
+
+        §03. 버그 악용, 핵 클라이언트 이용등 부정 행위§0
+        §0 유리한 버그를 발견했는데 제보하지 않고 악용하거나 다른 사람에게 공유할경우 영구 밴 처분을 받을 수 있으며, 핵 클라이언트의 경우엔 핵 종류에 상관없이 아이피 밴 처벌을 받습니다.
+      - |-
+        4. 자동 농장§0
+        §0
+        §0 자동 농장(금 농장, 철 농장, 엔더 농장, 몹타워 등의 몹 자동 스폰 및 몰이)(단 공격을 못하게 막지 않고 매우 좁은 공간에 몰아넣지 않으면 상관없습니다.§0
+        §0
+        §0(스포너 자체에서 나오는것은 상관없으나 물 등을 이용해 '고의적으로' 1x1 수준의 좁은 장소에 몰아넣거나 추락으로
+      - " 체력을 감소시키는것은 금지)), 무한회로(전원을 넣기만 하면 추가 조작 없이 아이템을 '찍어 내는' 것 금지)를 이용시 처벌을 받\
+        을 수 있습니다.§0\n§0\n§0(자동농장을 지은 사람은 이유 불문 영밴 및 롤백, 사용자는 사용 기간에 따라 기간벤§0\n§0(7/30일\
+        )또는 영구밴 및 사용 기간에 따라 섬 롤백,초기화) "
+      - |2
+
+        §0추가로, 자동농장을 사용한 사람에게 받거나 거래한 물건은 자동농장이 발견되었을 시 압류되며 받은걸 숨기거나 압류에 저항할 시 사용자와 같은 처벌을 받습니다.§0
+      - |
+        <처벌 또는 복구받지 못하는 사항>§0
+        §0
+        §01. 섬 초대를 받은 사람이 저지른 테러/약탈§0
+        §0
+        §0 부주의한 섬 초대로 인해 발생한 테러/약탈은 복구받지 않습니다. 단 테러/약탈을 저지른 사람은 처벌을 받으며 테러/약탈 정도에 따라 3일/7일/영밴 처벌을 합니다.§0
+      - |2
+
+        §02. 야생에 지은 건축물/상자 테러/약탈§0
+        §0
+        §0
+        §0 야생은 스블처럼 누군가의 전용 공간이 아닙니다. 야생에 있는 아이템/상자는 모두가 이용할 수 있고 그에 따라 처벌도 받지 않습니다.§0
+      - |2
+
+        §03. 야생에서 다른 유저의 용암테러등으로 사망한 경우§0
+        §0
+        §0
+        §0 야생에서 죽을 경우 아이템은 복구받을 수 없습니다. 단 고의로 테러를 한 사람은 이유를 불문하고(장난 포함) 영밴 처벌을 받습니다.§0
+      - |2-
+
+        §0<섬에 관한 명령어>§0
+        §0
+        §0/is help 자세한 명령어.§0
+        §0/is 섬으로 이동§0
+        §0/is sethome 현재 위치를 순간이동 지점으로 설정§0
+        §0/is level 섬 레벨 보기§0
+        §0/is top   섬 랭킹 보기§0
+        §0/is invite <player> 플레이어를 자신의 섬으로 초대합니다.§0
+        §0/is kick <player> 플레이어를 자신의 섬에서 내쫓습니다.
+      - |-
+        /is leave  섬을 떠납니다.§0
+        §0/is accept/reject 초대를 받거나 거절합니다.§0
+        §0/is makeleader <player> 섬을 플레이어에게 넘겨줍니다.§0
+        §0/is biomes  바이옴을 변경합니다.§0
+        §0/is settings 섬 보호 설정을 켭니다.
+      - |2
+
+        §0<mcmmo에 관한 명령어>§0
+        §0
+        §0/mcmmo help 자세한 명령어.§0
+        §0/mctop  전체 mcmmo 랭킹을 확인합니다.§0
+        §0/mcrank 자신의 mcmmo 레벨 순위를 봅니다§0
+        §0/mcstats 자신의 mcmmo 레벨을 봅니다.§0
+      - |2-
+
+        §0/기술   자신의 mcmmo 상태를 봅니다. (ex: /부술)§0
+        §0
+        §0채광|검술|벌목|발굴|약초학|곡예|§0
+        §0 낚시|수리|비무장|조련|연금술|§0
+        §0부술|
+      - |2-
+
+        §0<기타 명령어>§0
+        §0
+        §0&0~&9 + <할말>  색깔채팅을 합니다.(ex: &1안녕) §0
+        §0
+        §0/tpa <player> 텔레포트 신청을 합니다. §0
+        §0/tpa accept/deny 텔레포트 승낙/거절. §0
+        §0/shop 유저 상점 개설에 대한 도움말
+      - |2-
+
+        §0/g 길드에 관한 도움말.§0
+        §0/w <player> 할말 귓속말을 합니다§0
+        §0/m 총괄 GUI창 §0
+        §0/spawn 스폰 장소§0
+        §0/sethome 집 장소 지정§0
+        §0/home    집으로 이동§0
+        §0/rtp 야생 랜덤 티피§0
+        §0/money 돈§0
+        §0/co i 로그 조사(명령어 이후 원하는 블럭 좌/우클릭, 한번 더 치면 종료)
+      - |2-
+
+        §0
+        §0
+        §0
+        §0추가사항: 이 아이템은 상점에서 매우 낮은 가격으로 구하실 수 있습니다.
+      generation: 0
+test:
   ==: org.bukkit.inventory.ItemStack
-  type: IRON_SWORD
-  damage: 1
+  type: WOOD_SWORD
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: §6클라렌트
+    display-name: §0§0§0§0§0§0§0§0§7§lWOOD_SWORD
     lore:
-    - §c§9§f§4§e§5§e§d§c§e§e§1§e§d§e§5§a§0§b§1
-    - Clarent
-    - §c§4§e§5§f§3§e§3§f§2§e§9§f§0§f§4§e§9§e§f§e§e§a§0§b§2
-    - §f차가우면서도 뜨거운 기묘한 검.
-    - §f평범한 적은 압도합니다.
-    - §d§4§e§5§f§8§f§4§f§5§f§2§e§5§c§9§c§4§a§0§b§1
-    - §c§1§f§4§f§4§e§1§e§3§e§b§c§5§e§e§f§4§e§9§f§4§f§9§a§0§b§4
-    - '§dDamage§7 : §6+10'
-    - '§dBurn§7 : §6100'
-    - '§dPotionEffect§7 : §6SLOW,100,2'
-    - '§dEquipLimit§7 : §6MH'
-    - §c§3§f§2§e§1§e§6§f§4§a§0§b§1
-    - '§dCraftLevel§7 : §63'
-    - ''
-    - §3[EMCRPGItem]
-    ItemFlags:
-    - HIDE_ATTRIBUTES
-    - HIDE_UNBREAKABLE
-    Unbreakable: true
-horror:
-  c66e482c-648c-3dce-bdb5-61a955e748c8:
-    world,-80,63,313:
-      sounded: true
-    world,-79,63,313:
-      sounded: true
-    world,-79,63,314:
-      sounded: true
-    world,-80,63,314:
-      sounded: true
-puzzle:
-  c66e482c-648c-3dce-bdb5-61a955e748c8:
-    phase: 1
-    clickcount: 0
-    clicked: 0
-door:
-  ==: org.bukkit.Location
-  world: world
-  x: -67.52700310691769
-  y: 64.0
-  z: 315.5126336543544
-  pitch: 88.499985
-  yaw: 69.00152
-sign:
-  ==: org.bukkit.Location
-  world: world
-  x: -67.596814922492
-  y: 64.0
-  z: 314.39403007686184
-  pitch: 90.0
-  yaw: 86.25152
-abovedoor:
-  ==: org.bukkit.Location
-  world: world
-  x: -67.48750001192093
-  y: 67.61784416669292
-  z: 315.4041612330428
-  pitch: 69.450005
-  yaw: 248.55144
-itemframe:
-  ==: org.bukkit.Location
-  world: world
-  x: -67.8088442440511
-  y: 64.0
-  z: 313.5426481703776
-  pitch: 45.149986
-  yaw: 266.7014
-lever:
-  ==: org.bukkit.Location
-  world: world
-  x: -67.37427926170422
-  y: 64.0
-  z: 316.40933266320246
-  pitch: 67.20003
-  yaw: -92.54834
-targetblock:
-  ==: org.bukkit.Location
-  world: world
-  x: -68.72481194035807
-  y: 64.0
-  z: 316.396862340921
-  pitch: 78.30002
-  yaw: -75.598335
-inventorysave:
-  CraftPlayer{name=wysohn}:
-    '9':
-      ==: org.bukkit.inventory.ItemStack
-      type: DIAMOND_CHESTPLATE
-    '32':
-      ==: org.bukkit.inventory.ItemStack
-      type: ENCHANTED_BOOK
-      meta:
-        ==: ItemMeta
-        meta-type: ENCHANTED
-        stored-enchants:
-          PROTECTION_EXPLOSIONS: 4
-    test1:
-      '0':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '1':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '2':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '3':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '4':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '5':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '6':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '7':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '8':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '9':
-        ==: org.bukkit.inventory.ItemStack
-        type: DIAMOND_CHESTPLATE
-      '10':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '11':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '12':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '13':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '14':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '15':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '16':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '17':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '18':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '19':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '20':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '21':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '22':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '23':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '24':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '25':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '26':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '27':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '28':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '29':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '30':
-        ==: org.bukkit.inventory.ItemStack
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            PROTECTION_EXPLOSIONS: 4
-      '31':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '32':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '33':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '34':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '35':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '36':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '37':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '38':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '39':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '40':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-  c66e482c-648c-3dce-bdb5-61a955e748c8:
-    test1:
-      '0':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '1':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '2':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '3':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '4':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '5':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '6':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '7':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '8':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '9':
-        ==: org.bukkit.inventory.ItemStack
-        type: DIAMOND_CHESTPLATE
-      '10':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '11':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '12':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '13':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '14':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '15':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '16':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '17':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '18':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '19':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '20':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '21':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '22':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '23':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '24':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '25':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '26':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '27':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '28':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '29':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '30':
-        ==: org.bukkit.inventory.ItemStack
-        type: ENCHANTED_BOOK
-        meta:
-          ==: ItemMeta
-          meta-type: ENCHANTED
-          stored-enchants:
-            PROTECTION_EXPLOSIONS: 4
-      '31':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '32':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '33':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '34':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '35':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '36':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '37':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '38':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '39':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
-      '40':
-        ==: org.bukkit.inventory.ItemStack
-        type: AIR
+    - §0§0§0§0§0§0§0§0§f부가 설명                                 Sword§c§a§f§e§0§0§0§0
+    - §f0-3 Damage
+    - §aShoots TNT (5.0s cooldown)
+    - §aShoots 20 multicoloured wool (0.5s cooldown)
+    - §e§o"§2설명"
+머리:
+  ==: org.bukkit.inventory.ItemStack
+  type: SKULL_ITEM
+  damage: 4
+  amount: 4

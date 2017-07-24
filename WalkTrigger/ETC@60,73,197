@@ -1,1 +1,12 @@
-#CMD "is" 
+#CMD "is"
+perm = "tutorial.finished"
+IF !player.hasPermission(perm)
+    vault.permit(player, perm)
+    #WAIT 2
+    #GUI "menu"
+    #GIVE {"guidebook.1"}
+    #GIVE {"guidebook.2"}
+    #CMDOP "cb give 랜덤박스"
+    #MESSAGE "&a튜토리얼 완료 보상으로 소정의 아이템을 지급 해드렸습니다."
+    #MESSAGE "&a즐거운 게임 되세요!"
+ENDIF

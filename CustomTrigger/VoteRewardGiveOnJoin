@@ -1,0 +1,13 @@
+rewards = {"votereward."+player.getUniqueId()+".rewards"}
+
+IF rewards
+	{"votereward."+player.getUniqueId()+".rewards"} = 0
+	
+	item = item(175, rewards)
+	setItemTitle(item, "&6투표 코인")
+	addLore(item, "무엇인가와 교환 할 수 있을지도...")
+	
+	#GIVE item
+	
+	#MESSAGE "&a투표 감사드립니다!"
+ENDIF

@@ -1,0 +1,3 @@
+IF getItemTitle(player.getItemInHand()) == color("&6투표 코인")
+	#CANCELEVENT
+ENDIF

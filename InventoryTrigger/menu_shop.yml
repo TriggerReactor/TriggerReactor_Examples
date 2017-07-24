@@ -15,3 +15,8 @@ Items:
     Amount: 1
     Data: 0
     Title: '&b섬 확장'
+  '18':
+    Type: RAW_FISH
+    Amount: 1
+    Data: 2
+    Title: '&b물고기 팔기'
