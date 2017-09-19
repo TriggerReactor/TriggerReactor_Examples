@@ -3,7 +3,7 @@ IF trigger == "init"
 ENDIF
 
 IF trigger == "repeat"
-    #LOG "repeat"
+    #LOG "repeating"
 ENDIF
 
 IF trigger == "stop"
